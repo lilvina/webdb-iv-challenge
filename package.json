@@ -9,6 +9,7 @@
     "server": "nodemon"
   },
   "devDependencies": {
+    "knex-cleaner": "^1.1.4",
     "nodemon": "^1.18.10"
   },
   "dependencies": {

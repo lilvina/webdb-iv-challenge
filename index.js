@@ -1,7 +1,10 @@
 const express = require('express')
-//const db = require('')
+
+const db = require('./data/dbConfig.js')
 
 const server = express()
+
+//const recipeRouter = require('/api/recipes', recipeRouter)
 
 server.use(express.json())
 
